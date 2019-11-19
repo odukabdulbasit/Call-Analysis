@@ -1,6 +1,6 @@
 # Call Analysis
 
-One Paragraph of project description goes here
+Call analysis application is an application that presents us data on graph by using call records. You can view your call history at the first screen. It provided by use READ_CALL_LOG permission. You can see summary of people who you talk to most on graphic. ıt is provide information to you about your how much time spent with call conversations clearly and quickly.
 
 ## Getting Started
 
