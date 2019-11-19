@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:textAlignment="center"
+        android:gravity="center"
+        app:layout_constraintBottom_toTopOf="@+id/list_View"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/tumuButton"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="TÜMÜ"
+            android:textSize="12dp"
+            android:textColor="@color/textcolor"
+            android:onClick="tumuButtonClicked"/>
+
+        <Button
+            android:id="@+id/gelenButton"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="GELEN"
+            android:textSize="12dp"
+            android:textColor="@color/textcolor"
+            android:background="@color/gelencolor"
+            android:onClick="gelenButtonClicked"/>
+
+        <Button
+            android:id="@+id/gidenButton"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="Giden"
+            android:textSize="12dp"
+            android:textColor="@color/textcolor"
+            android:background="#4CAF50"
+            android:onClick="gidenButtonClicked"/>
+
+        <Button
+            android:id="@+id/cevapsizButton"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="Cevapsiz"
+            android:textSize="12dp"
+            android:textColor="@color/textcolor"
+            android:background="@color/cevapsizColor"
+            android:onClick="cevapsizButtonClicked"/>
+
+        <Button
+            android:id="@+id/graphicsButton"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:textSize="12dp"
+            android:text="Grafik"
+            android:textColor="@color/textcolor"
+            android:onClick="graphicsButtonClicked"/>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/list_View"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="70dp"
+        tools:layout_editor_absoluteY="5dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

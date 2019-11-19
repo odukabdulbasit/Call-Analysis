@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CallAnalysis</string>
+    <string name="Gizlilik_Text">Bu uygulama size hizmet sunabilmek için arama kayıtlarınıza erişmektedir.
+        Bilgilerinizin nasıl kullanıldığını öğrenmek için TIKLAYINIZ.</string>
+</resources>
