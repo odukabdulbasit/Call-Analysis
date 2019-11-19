@@ -22,10 +22,6 @@ class PermissionActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_permission)
-//https://bit.ly/2qEui28
-
-
-
 
         val styledString = SpannableString("Bu uygulama size hizmet sunabilmek için arama kayıtlarınıza erişmektedir bilgilerinizin nasıl kullanıldığını öğrenmek için TIKLAYINIZ."
         )
@@ -44,15 +40,6 @@ class PermissionActivity : AppCompatActivity() {
         // make text italic
         styledString.setSpan(StyleSpan(Typeface.ITALIC), 123, 134, 0)
         styledString.setSpan(StyleSpan(Typeface.BOLD), 123, 134, 0)
-
-        // make text bold
-        //styledString.setSpan(StyleSpan(Typeface.BOLD), 30, 46, 0)
-
-        // underline text
-        //styledString.setSpan(UnderlineSpan(), 30, 46, 0)
-
-        // add strike through span
-        //styledString.setSpan(StrikethroughSpan(), 0, 11, 0)
 
         // change text color
         styledString.setSpan(ForegroundColorSpan(Color.BLUE), 123, 134, 0)
